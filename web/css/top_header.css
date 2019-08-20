@@ -1,0 +1,51 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10 Jul, 2019, 4:44:04 PM
+    Author     : DELL
+*/
+.div1
+{
+    height: 50px;
+    width: 100%;
+    background: black;
+}
+.div2
+{
+    height: 100%;
+    padding-right: 10px;
+    float: right;
+}
+
+.div3
+{
+    float:left;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /*background-color: #333;*/
+}
+
+li {
+  float: left;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #333;
+}
